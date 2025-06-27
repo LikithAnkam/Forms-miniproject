@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #contact{
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="contact">
+        <form action="submit.html" required>
+            <label for="text">Email:-</label>
+            <input type="text" id="email" name="email" value=" " required pattern="(?=.*[a-z]).{8,16}"><br>
+            <label for="text">Password:-</label>
+            <input type="text" required id="password" name="password" value=" " pattern="(?=.*[a-z])(?=.*[A-Z]).{8,16}"><br>
+            <label for="text">Phone No:-</label>
+            <input type="text" id="num" name="num" value=" "><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+     <!-- <input type="text" required 
+        pattern="(?=.*[a-z])(?=.*[A-Z]).{8,16}"> -->
+    
+</body>
+</html>
